@@ -1,0 +1,11 @@
+{%extends '::base.html.twig'%}
+{%block body%}
+<h1>Service Sprint</h1>
+<ul>
+	<li><a href="{{path('gestionBundle_homepage',{})}}">Accueil</a></li>
+	<li><a href="{{path('gestionBundle_ajouterSejour',{})}}">Ajouter un sejour</a></li>
+	<li><a href="{{path('gestionBundle_consulterSejour',{})}}">Consulter les sejours</a></li>
+	<li><a href="{{path('gestionBundle_supprimmerSejour',{})}}">Supprimmer les sejours</a></li>
+</ul>
+{%block corps%}{%endblock%}
+{%endblock%}

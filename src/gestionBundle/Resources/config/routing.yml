@@ -1,0 +1,15 @@
+gestionBundle_homepage:
+    path:     /accueil
+    defaults: { _controller: gestionBundle:Default:index }
+
+gestionBundle_consulterSejour:
+    path:     /consulterSejour
+    defaults: { _controller: gestionBundle:Default:consulterSejour }
+
+gestionBundle_ajouterSejour:
+    path:     /ajouterSejour
+    defaults: { _controller: gestionBundle:Default:ajouterSejour }
+
+gestionBundle_supprimmerSejour:
+    path:     /supprimmerSejour
+    defaults: { _controller: gestionBundle:Default:supprimmerSejour }
